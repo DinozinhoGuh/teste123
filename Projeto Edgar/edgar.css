@@ -1,0 +1,90 @@
+@font-face {
+    font-family: "brawlstar" ;
+    src: url(Nougat-ExtraBlack.ttf);
+}
+
+h1{
+    text-align: center;
+    font-family: "brawlstar";
+    font-size: 60px;
+    letter-spacing: 10px;
+}
+
+#edgar{
+    text-align: center;
+}
+
+h2{
+    font-family: "brawlstar";
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+
+img{
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border: 2px solid black;
+}
+
+.card{
+    width: 500px;
+    margin: auto;
+    border: 2px solid black;
+    padding: 20px;
+    background-size: cover;
+    border-radius: 50px;
+    background-image: url(fundodocard.jpg);
+    background-size: cover;
+    
+    
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700px;
+    font-size: 16px;
+    color: white;
+    
+}
+
+.gradiente{
+    background: #C9D6FF;  
+background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);  
+background: linear-gradient(to right, #E2E2E2, #C9D6FF);
+
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: fit-content;
+}
+
+
+body{
+    background-image: url(fundosite.webp);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+a:link{
+    color:  white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    text-decoration: underline;
+}
+
+a:visited{
+    color:  white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+
+a:hover{
+    color: white;
+    font-weight: 700;
+    cursor:pointer;
+    transition: 0.5s;
+    text-decoration: underline;
+}
